@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0f6e643a8cba4ba89ba3ab6cebded3c3" Name="Diagram1">
+        <EntityTypeShape EntityType="BSTicketDBModel.Activity" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Authority" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Img" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Map" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Member" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Order" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.OrderDetail" Width="1.5" PointX="10.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Product" Width="1.5" PointX="7.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BSTicketDBModel.Seat" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Activity_Map" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Activity_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Order_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Product_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Member_Authority" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Seat_Map" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Order_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_Seat_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.ImgActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="BSTicketDBModel.ImgProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
