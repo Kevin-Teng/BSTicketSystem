@@ -132,15 +132,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202007191852411_InitDB.cs" />
-    <Compile Include="Migrations\202007191852411_InitDB.Designer.cs">
-      <DependentUpon>202007191852411_InitDB.cs</DependentUpon>
+    <Compile Include="Migrations\202007201717154_InitDB.cs" />
+    <Compile Include="Migrations\202007201717154_InitDB.Designer.cs">
+      <DependentUpon>202007201717154_InitDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007210738099_InitData.cs" />
+    <Compile Include="Migrations\202007210738099_InitData.Designer.cs">
+      <DependentUpon>202007210738099_InitData.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Authority.cs" />
     <Compile Include="Models\BSTicketDBContext.cs" />
     <Compile Include="Models\Img.cs" />
+    <Compile Include="Models\ImgActivity.cs" />
+    <Compile Include="Models\ImgProduct.cs" />
     <Compile Include="Models\Map.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Order.cs" />
@@ -203,8 +209,11 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202007191852411_InitDB.resx">
-      <DependentUpon>202007191852411_InitDB.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202007201717154_InitDB.resx">
+      <DependentUpon>202007201717154_InitDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007210738099_InitData.resx">
+      <DependentUpon>202007210738099_InitData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
