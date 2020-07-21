@@ -136,10 +136,6 @@
     <Compile Include="Migrations\202007201717154_InitDB.Designer.cs">
       <DependentUpon>202007201717154_InitDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202007210738099_InitData.cs" />
-    <Compile Include="Migrations\202007210738099_InitData.Designer.cs">
-      <DependentUpon>202007210738099_InitData.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\Authority.cs" />
@@ -211,9 +207,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202007201717154_InitDB.resx">
       <DependentUpon>202007201717154_InitDB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007210738099_InitData.resx">
-      <DependentUpon>202007210738099_InitData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
